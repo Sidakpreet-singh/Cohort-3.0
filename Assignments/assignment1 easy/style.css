@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.maindiv{
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0px;
+    position: relative;
+}
+.pikachuimg{
+    position: absolute;
+    height: 50%;
+    width:25%;
+    left: 730px;
+    background-color: transparent;
+    z-index: 1;
+    
+
+    
+}
+
+.yellowdiv{
+      height: 98%;
+  width: 42%;
+  background-color: #fbc50b;
+    border-radius: 20px 0 0 20px;
+ font-family: "Poppins", sans-serif;
+  position: relative;
+  /* z-index: -1; */
+  
+}
+.creamdiv{
+    height: 98%;
+  width: 28%;
+  background-color: #fbe8b5;
+  border-radius: 0 20px 20px 0;
+  position: relative;
+}
+.logo{
+    height:12%;
+    width:20%;
+    margin:10px 25px;
+
+}
+.pikachuball{
+    height: 30%;
+    width: 40%;
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    opacity: 0.06;
+    
+    
+}
+
+   .text-area{
+    width:70%;
+    margin:90px 0 0 60px;
+}
+
+
+.text-area > *{
+    margin-bottom: 10px;
+
+}
+/* .text-area h1{
+    font-size: 5rem;
+    font-weight: 900;
+} */
+.last-line{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #4b3901;
+
+}
+.last-line::before{
+    content: "";
+    width: 30px;      /* Length of the line */
+    height: 2px;      /* Thickness */
+    background: #4b3901; /* Line color */
+}
+
+
+.text-area h1{
+    font-size:6rem;
+    font-weight: 700;
+    
+   
+}
+.first-line {
+  
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+.paragraph
+{ font-size: medium;
+  font-weight: 400;
+    color: #4b3901;
+}
+
+
+
+.dots{
+    
+    width:10%;
+    padding: 5px 15px;
+   
+    position: absolute;
+    right:5%;
+    top:40%;
+
+   
+   
+
+}
+.dots div{
+    
+    height: 10px;
+    width:10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+   
+}
+.yellowcircle
+{
+    background: #fbc50b;
+}
+.blackcircle{
+    background: #000000;
+}
+
+.hamburger{
+    height:5%;
+    width:7%;
+    position: absolute;
+    top:10%;
+    right:10%;
+
+}
