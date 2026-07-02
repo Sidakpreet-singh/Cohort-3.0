@@ -75,10 +75,7 @@ body,html{
     margin-bottom: 10px;
 
 }
-/* .text-area h1{
-    font-size: 5rem;
-    font-weight: 900;
-} */
+
 .last-line{
     display: flex;
     align-items: center;
@@ -90,15 +87,16 @@ body,html{
 }
 .last-line::before{
     content: "";
-    width: 30px;      /* Length of the line */
-    height: 2px;      /* Thickness */
-    background: #4b3901; /* Line color */
+    width: 30px;      
+    height: 2px;  
+   background: #4b3901; 
 }
 
 
 .text-area h1{
     font-size:6rem;
     font-weight: 700;
+    margin-left: 10;
     
    
 }
